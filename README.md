@@ -7,13 +7,13 @@ Sign Speaks 🤟📢
 ## 📌 Project Flow
 
 1. **Data Collection**  
-   Collect hand, face, and pose landmark data using the `1_data_collection.ipynb` file. This uses Mediapipe and OpenCV to capture landmarks and save them as `.npy` files.
+   Collect hand, face, and pose landmark data using the `Data Collection Final.ipynb` file. This uses Mediapipe and OpenCV to capture landmarks and save them as `.npy` files.
 
 2. **Data Preprocessing & Model Training**  
-   Use the `2_CNN_model_training.ipynb` notebook to preprocess the collected data, build the Conv1D + LSTM model, and train it.
+   Use the `CNN working.ipynb` notebook to preprocess the collected data, build the Conv1D + LSTM model, and train it.
 
 3. **Run & Test the Model**  
-   Use `3_run_model.ipynb` to load the trained model and perform real-time sign detection using your webcam.
+   Use `run file.ipynb` to load the trained model and perform real-time sign detection using your webcam.
 
 ---
 
